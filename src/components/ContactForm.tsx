@@ -16,7 +16,8 @@ const ContactForm = () => {
     if (endereco) message += `\nEndereço - ${endereco}`;
 
     const encoded = encodeURIComponent(message);
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`, "_blank");
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   return (
