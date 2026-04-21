@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5500000000000"; // Replace with actual number
+const WHATSAPP_NUMBER = "5537988339363";
 
 const ContactForm = () => {
   const [nome, setNome] = useState("");
