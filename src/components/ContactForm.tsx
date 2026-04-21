@@ -51,8 +51,14 @@ const ContactForm = () => {
               <input
                 type="text"
                 value={cnpj}
-                onChange={(e) => setCnpj(e.target.value)}
-                placeholder="00.000.000/0000-00"
+                onChange={(e) => {
+                  const apenasNumeros = e.target.value.replace(/\D/g, "");
+                  if (apenasNumeros.length <= 14) {
+                    setCnpj(apenasNumeros);
+                  }
+                }}
+                placeholder="00000000000000"
+                maxLength={14}
                 className="w-full rounded-lg border border-input bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
               />
             </div>
