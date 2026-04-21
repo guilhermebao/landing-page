@@ -1,6 +1,8 @@
 import heroImage from "@/assets/hero-service.jpg";
 import { Shield, CheckCircle, ClipboardList } from "lucide-react";
 
+const WHATSAPP_NUMBER = "5537988339363";
+
 const features = [
   { icon: Shield, text: "Licenciamento Sanitário" },
   { icon: CheckCircle, text: "Adequação às Normas" },
@@ -8,6 +10,13 @@ const features = [
 ];
 
 const HeroSection = () => {
+  const handleWhatsApp = () => {
+    const message = "MVM Engenharia gostaria de saber sobre o serviço de vigilância sanitária.";
+    const encoded = encodeURIComponent(message);
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <section className="relative overflow-hidden bg-card">
       <div className="container mx-auto grid items-center gap-10 px-4 py-16 md:grid-cols-2 md:py-24">
@@ -36,12 +45,12 @@ const HeroSection = () => {
               </div>
             ))}
           </div>
-          <a
-            href="#contato"
+          <button
+            onClick={handleWhatsApp}
             className="mt-2 inline-block rounded-lg bg-secondary px-8 py-3.5 text-base font-bold text-secondary-foreground transition hover:opacity-90"
           >
             Solicitar Orçamento
-          </a>
+          </button>
         </div>
         <div className="animate-fade-in-up [animation-delay:200ms] opacity-0">
           <img
