@@ -7,24 +7,28 @@ import {
 
 const faqs = [
   {
-    q: "O que é vigilância sanitária?",
-    a: "A vigilância sanitária é o conjunto de ações voltadas para eliminar, diminuir ou prevenir riscos à saúde. Abrange o controle de bens de consumo, prestação de serviços e ambientes que possam afetar a saúde pública.",
+    q: "Quem precisa do AVCB ou CLCB?",
+    a: "Toda edificação comercial ou multifamiliar acima de 200 m² precisa de regularização junto ao Corpo de Bombeiros para obtenção do AVCB ou CLCB; para uma verificação mais assertiva, entre em contato conosco que analisamos a necessidade conforme as características do seu imóvel e atividade.",
   },
   {
-    q: "Quais tipos de negócios precisam de licença sanitária?",
-    a: "Restaurantes, clínicas, salões de beleza, academias, farmácias, indústrias alimentícias, hospitais, laboratórios e qualquer estabelecimento que comercialize ou manipule produtos que possam impactar a saúde.",
+    q: "Quanto tempo leva para obter o AVCB ou CLCB?",
+    a: "O prazo pode variar conforme a complexidade da edificação e as adequações necessárias, mas geralmente o processo leva entre 20 e 45 dias.",
   },
   {
-    q: "Quanto tempo leva para obter a licença sanitária?",
-    a: "O prazo pode variar de acordo com o município e a complexidade do negócio. Geralmente, o processo leva entre 15 e 60 dias após a entrada da documentação completa.",
+    q: "Quando é necessário elaborar ou alterar um Projeto de Incêndio?",
+    a: "A elaboração do Projeto de Incêndio é necessária em edificações acima de 200m², porém a aprovação é exigida apenas quando a edificação possui área superior a 930m²; já a alteração do projeto deve ser feita quando há mudanças no layout, ampliação da área ou alteração da atividade do imóvel, garantindo que todas as medidas de segurança estejam conforme as normas vigentes.",
   },
   {
-    q: "A consultoria é presencial ou online?",
-    a: "Oferecemos ambas as modalidades. Realizamos visitas presenciais quando necessário e também prestamos assessoria remota para análise documental e orientação.",
+    q: "O que é o treinamento de Brigada de Incêndio e quem precisa?",
+    a: "É a capacitação dos responsáveis pelo atendimento inicial em situações de emergência, sendo exigida para diversas empresas e edificações, garantindo mais segurança aos ocupantes e atendimento às exigências do Corpo de Bombeiros.",
   },
   {
-    q: "O que acontece se meu estabelecimento não estiver em conformidade?",
-    a: "O descumprimento das normas sanitárias pode resultar em multas, interdição do estabelecimento e até mesmo processos judiciais. Nossa consultoria ajuda a evitar esses problemas.",
+    q: "Quando é possível obter a dispensa de AVCB ou CLCB?",
+    a: "A dispensa pode ser aplicada a edificações de baixo risco que possuam área inferior a 200 m², desde que atendam aos critérios definidos pelo Corpo de Bombeiros; para uma análise correta, avaliamos as características do seu imóvel.",
+  },
+  {
+    q: "O que acontece se meu estabelecimento não estiver regularizado junto ao Corpo de Bombeiros?",
+    a: "O imóvel pode sofrer penalidades como multas, interdição e impedimento de funcionamento, além de riscos à segurança das pessoas, sendo essencial manter a regularização em dia.",
   },
 ];
 

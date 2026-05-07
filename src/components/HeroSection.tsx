@@ -1,12 +1,15 @@
 import heroImage from "@/assets/hero-service.jpg";
-import { Shield, CheckCircle, ClipboardList } from "lucide-react";
+import { Shield, CheckCircle, ClipboardList, FireExtinguisher, ClipboardMinus } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5537988339363";
 
 const features = [
-  { icon: Shield, text: "Licenciamento Sanitário" },
-  { icon: CheckCircle, text: "Adequação às Normas" },
-  { icon: ClipboardList, text: "Consultoria Especializada" },
+  { icon: Shield, text: " Obtenção e Renovação do AVCB e CLCB" },
+  { icon: FireExtinguisher, text: "Treinamento e Capacitação da Brigada de Incêndio" },
+  { icon: ClipboardList, text: "Obtenção da Dispensa de AVCB e CLCB" },
+  { icon: CheckCircle, text: "Elaboração de Laudos Estanqueidade" },
+  { icon: ClipboardMinus, text: "Assessoria Especializada" },
+  { icon: FireExtinguisher, text: "Elaboração e Alteração do Projeto de Incêndio" },
 ];
 
 const HeroSection = () => {
@@ -30,9 +33,7 @@ const HeroSection = () => {
             empresa
           </h1>
           <p className="max-w-lg text-lg text-muted-foreground">
-            Oferecemos consultoria completa para adequação sanitária, obtenção de
-            licenças e cumprimento das exigências legais. Garanta a conformidade
-            do seu negócio.
+          Oferecemos assessoria completa para regularização junto ao Corpo de Bombeiros, através da obtenção de AVCB/CLCB, elaboração de Projetos e confecção dos documentos complementares. Garanta a conformidade do seu negócio e edificação. 
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             {features.map((f) => (
