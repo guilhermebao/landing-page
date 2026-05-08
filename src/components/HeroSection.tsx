@@ -14,7 +14,7 @@ const features = [
 
 const HeroSection = () => {
   const handleWhatsApp = () => {
-    const message = "MVM Engenharia gostaria de saber sobre o serviço de vigilância sanitária.";
+    const message = "MVM Engenharia gostaria de saber sobre o serviço de projeto de incêndio.";
     const encoded = encodeURIComponent(message);
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
     window.open(url, "_blank", "noopener,noreferrer");
@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div className="container mx-auto grid items-center gap-10 px-4 py-16 md:grid-cols-2 md:py-24">
         <div className="animate-fade-in-up space-y-6">
           {/* <span className="inline-block rounded-full bg-accent px-4 py-1.5 text-xs font-semibold text-accent-foreground">
-            Vigilância Sanitária
+            Projeto de Incêndio
           </span> */}
           <h1 className="text-4xl font-extrabold leading-tight text-foreground md:text-5xl">
             Soluções em{" "}

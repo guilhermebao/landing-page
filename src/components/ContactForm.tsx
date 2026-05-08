@@ -9,7 +9,7 @@ const ContactForm = () => {
   const [endereco, setEndereco] = useState("");
 
   const handleWhatsApp = () => {
-    let message = "MVM Engenharia gostaria de saber sobre o serviço de vigilância sanitária.";
+    let message = "MVM Engenharia gostaria de saber sobre o serviço de projeto de incêndio.";
 
     if (nome) message += `\n\nNome - ${nome}`;
     if (cnpj) message += `\nCNPJ - ${cnpj}`;

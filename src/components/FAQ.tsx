@@ -36,7 +36,7 @@ const faqs = [
 
 const FAQ = () => {
   const handleWhatsApp = () => {
-    const message = "MVM Engenharia gostaria de saber sobre o serviço de vigilância sanitária.";
+    const message = "MVM Engenharia gostaria de saber sobre o serviço de projeto de incêndio.";
     const encoded = encodeURIComponent(message);
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
     window.open(url, "_blank", "noopener,noreferrer");
@@ -50,7 +50,7 @@ const FAQ = () => {
             Perguntas Frequentes
           </h2>
           <p className="mb-10 text-center text-muted-foreground">
-            Tire suas dúvidas sobre nossos serviços de vigilância sanitária
+            Tire suas dúvidas sobre nossos serviços de projeto de incêndio
           </p>
 
           <div className="mx-auto max-w-2xl">

@@ -4,7 +4,7 @@ const WHATSAPP_NUMBER = "5537988339363";
 
 const Header = () => {
   const handleWhatsApp = () => {
-    const message = "MVM Engenharia gostaria de saber sobre o serviço de vigilância sanitária.";
+    const message = "MVM Engenharia gostaria de saber sobre o serviço de projeto de incêndio.";
     const encoded = encodeURIComponent(message);
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
     window.open(url, "_blank", "noopener,noreferrer");
