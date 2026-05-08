@@ -38,7 +38,7 @@ const HeroSection = () => {
             {features.map((f) => (
               <div
                 key={f.text}
-                className="flex items-center gap-2 rounded-lg bg-[#ef444430] px-4 py-2 text-sm font-medium text-destructive"
+                className="flex items-center gap-2 rounded-lg bg-destructive/10 px-4 py-2 text-sm font-medium text-destructive"
               >
                 <f.icon className="h-4 w-4 text-destructive" />
                 {f.text}
