@@ -4,7 +4,7 @@ import { Instagram, Facebook, PhoneForwarded } from "lucide-react";
 const socials = [
   { icon: Instagram, href: "https://www.instagram.com/mvmengdivi", label: "Instagram" },
   { icon: Facebook, href: "https://www.facebook.com/mvmengdiv", label: "Facebook" },
-  { icon: PhoneForwarded, href: "https://api.whatsapp.com/send/?phone=5537998227021&text&type=phone_number&app_absent=0", label: "PhoneForwarded" },
+  { icon: PhoneForwarded, href: "https://api.whatsapp.com/send/?phone=5537988339363&text=MVM+Engenharia+gostaria+de+saber+sobre+o+servi%C3%A7o+de+projeto+de+inc%C3%AAndio.&type=phone_number&app_absent=0", label: "PhoneForwarded" },
 ];
 
 const Footer = () => {

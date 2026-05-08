@@ -28,9 +28,8 @@ const HeroSection = () => {
             Projeto de Incêndio
           </span> */}
           <h1 className="text-4xl font-extrabold leading-tight text-foreground md:text-5xl">
-            Soluções em{" "}
-            <span className="text-destructive">Projeto de incêndio</span> para sua
-            empresa
+            Soluções junto ao{" "}
+            <span className="text-destructive">Corpo de Bombeiros</span> para sua empresa e edificação
           </h1>
           <p className="max-w-lg text-lg text-muted-foreground">
           Oferecemos assessoria completa para regularização junto ao Corpo de Bombeiros, através da obtenção de AVCB/CLCB, elaboração de Projetos e confecção dos documentos complementares. Garanta a conformidade do seu negócio e edificação. 

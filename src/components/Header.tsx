@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-card/80 backdrop-blur-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
-        <a href="https://guilhermebao.github.io/landing-page/" className="flex items-center gap-3">
+        <a href="https://mvmeng.com/" className="flex items-center gap-3">
           <img src={logo} alt="MVM Engenharia" className="h-10" />
         </a>
         <button
