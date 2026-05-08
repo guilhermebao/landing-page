@@ -1,6 +1,7 @@
 import {
     CursorArrowRaysIcon,
     EnvelopeOpenIcon,
+    Cog6ToothIcon,
     UsersIcon,
     CheckBadgeIcon,
     AcademicCapIcon,
@@ -11,7 +12,7 @@ import {
     {
       id: 1,
       name: 'Soluções Integradas',
-      icon: UsersIcon,
+      icon: Cog6ToothIcon,
       description:
         'A elaboração de cada demanda, não fica apenas nos requisitos básicos, buscamos analisar e projetar soluções que atendem as diversas Normas e Legislações vigentes.',
     },
@@ -57,7 +58,7 @@ import {
               <div className="flex flex-col items-center text-center">
                 
                 {/* Ícone */}
-                <div className="rounded-xl bg-primary p-4">
+                <div className="rounded-xl bg-destructive p-4">
                   <item.icon
                     aria-hidden="true"
                     className="h-6 w-6 text-white"
@@ -65,7 +66,7 @@ import {
                 </div>
   
                 {/* Título */}
-                <h3 className="mt-4 text-lg font-medium text-accent-foreground">
+                <h3 className="mt-4 text-lg font-medium text-destructive">
                   {item.name}
                 </h3>
   

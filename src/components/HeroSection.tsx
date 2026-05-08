@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-service.jpg";
+import heroImage from "@/assets/bombeiro.jpeg";
 import { Shield, CheckCircle, ClipboardList, FireExtinguisher, ClipboardMinus } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5537988339363";
@@ -24,12 +24,12 @@ const HeroSection = () => {
     <section className="relative overflow-hidden bg-card">
       <div className="container mx-auto grid items-center gap-10 px-4 py-16 md:grid-cols-2 md:py-24">
         <div className="animate-fade-in-up space-y-6">
-          <span className="inline-block rounded-full bg-accent px-4 py-1.5 text-xs font-semibold text-accent-foreground">
+          {/* <span className="inline-block rounded-full bg-accent px-4 py-1.5 text-xs font-semibold text-accent-foreground">
             Vigilância Sanitária
-          </span>
+          </span> */}
           <h1 className="text-4xl font-extrabold leading-tight text-foreground md:text-5xl">
             Soluções em{" "}
-            <span className="text-primary">Vigilância Sanitária</span> para sua
+            <span className="text-destructive">Projeto de incêndio</span> para sua
             empresa
           </h1>
           <p className="max-w-lg text-lg text-muted-foreground">
@@ -39,9 +39,9 @@ const HeroSection = () => {
             {features.map((f) => (
               <div
                 key={f.text}
-                className="flex items-center gap-2 rounded-lg bg-accent px-4 py-2 text-sm font-medium text-accent-foreground"
+                className="flex items-center gap-2 rounded-lg bg-[#ef444430] px-4 py-2 text-sm font-medium text-destructive"
               >
-                <f.icon className="h-4 w-4 text-primary" />
+                <f.icon className="h-4 w-4 text-destructive" />
                 {f.text}
               </div>
             ))}

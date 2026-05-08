@@ -5,6 +5,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+const WHATSAPP_NUMBER = "5537988339363";
+
 const faqs = [
   {
     q: "Quem precisa do AVCB ou CLCB?",
@@ -33,36 +35,53 @@ const faqs = [
 ];
 
 const FAQ = () => {
-  return (
-    <section className="bg-card py-16 md:py-24">
-      <div className="container mx-auto px-4">
-        <h2 className="mb-2 text-center text-3xl font-extrabold text-foreground md:text-4xl">
-          Perguntas Frequentes
-        </h2>
-        <p className="mb-10 text-center text-muted-foreground">
-          Tire suas dúvidas sobre nossos serviços de vigilância sanitária
-        </p>
+  const handleWhatsApp = () => {
+    const message = "MVM Engenharia gostaria de saber sobre o serviço de vigilância sanitária.";
+    const encoded = encodeURIComponent(message);
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
 
-        <div className="mx-auto max-w-2xl">
-          <Accordion type="single" collapsible className="space-y-3">
-            {faqs.map((faq, i) => (
-              <AccordionItem
-                key={i}
-                value={`item-${i}`}
-                className="rounded-xl border border-border bg-background px-6 shadow-sm"
-              >
-                <AccordionTrigger className="text-left text-base font-semibold text-foreground hover:no-underline">
-                  {faq.q}
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
-                  {faq.a}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+  return (
+    <div className="bg-card py-16 md:py-24">
+      <section>
+        <div className="container mx-auto px-4">
+          <h2 className="mb-2 text-center text-3xl font-extrabold text-foreground md:text-4xl">
+            Perguntas Frequentes
+          </h2>
+          <p className="mb-10 text-center text-muted-foreground">
+            Tire suas dúvidas sobre nossos serviços de vigilância sanitária
+          </p>
+
+          <div className="mx-auto max-w-2xl">
+            <Accordion type="single" collapsible className="space-y-3">
+              {faqs.map((faq, i) => (
+                <AccordionItem
+                  key={i}
+                  value={`item-${i}`}
+                  className="rounded-xl border border-border bg-background px-6 shadow-sm"
+                >
+                  <AccordionTrigger className="text-left text-base font-semibold text-foreground hover:no-underline">
+                    {faq.q}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">
+                    {faq.a}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
         </div>
+      </section>
+      <div className="container mx-auto flex justify-center px-4">
+        <button
+          onClick={handleWhatsApp}
+          className="w-full max-w-2xl mt-4 inline-block rounded-lg bg-secondary px-8 py-3.5 text-base font-bold text-secondary-foreground transition hover:opacity-90"
+        >
+          Solicitar Orçamento
+        </button>
       </div>
-    </section>
+    </div>
   );
 };
 

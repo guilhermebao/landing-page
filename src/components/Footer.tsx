@@ -1,10 +1,10 @@
 import logo from "@/assets/logo.png";
-import { Instagram, Facebook, Linkedin } from "lucide-react";
+import { Instagram, Facebook, PhoneForwarded } from "lucide-react";
 
 const socials = [
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Instagram, href: "https://www.instagram.com/mvmengdivi", label: "Instagram" },
+  { icon: Facebook, href: "https://www.facebook.com/mvmengdiv", label: "Facebook" },
+  { icon: PhoneForwarded, href: "https://api.whatsapp.com/send/?phone=5537998227021&text&type=phone_number&app_absent=0", label: "PhoneForwarded" },
 ];
 
 const Footer = () => {

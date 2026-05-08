@@ -18,7 +18,7 @@ const Header = () => {
         </a>
         <button
           onClick={handleWhatsApp}
-          className="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition hover:opacity-90"
+          className="rounded-lg bg-destructive px-5 py-2.5 text-sm font-semibold text-destructive-foreground transition hover:opacity-90"
         >
           Fale Conosco
         </button>
