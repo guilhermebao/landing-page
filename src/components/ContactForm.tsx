@@ -21,7 +21,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contato" className="bg-destructive/10 py-16 md:py-24">
+    <section id="contato" className="bg-primary/10 py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-xl">
           <h2 className="mb-2 text-center text-3xl font-extrabold text-foreground md:text-4xl">

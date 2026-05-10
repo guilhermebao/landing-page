@@ -1,15 +1,15 @@
 import heroImage from "@/assets/bombeiro.jpeg";
-import { Shield, CheckCircle, ClipboardList, FireExtinguisher, ClipboardMinus } from "lucide-react";
+import { ClipboardCheck, CheckCircle, ClipboardList, FireExtinguisher, ClipboardMinus, Toilet, CircleUserRound } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5537988339363";
 
 const features = [
-  { icon: Shield, text: " Obtenção e Renovação do AVCB e CLCB" },
-  { icon: FireExtinguisher, text: "Treinamento e Capacitação da Brigada de Incêndio" },
-  { icon: ClipboardList, text: "Obtenção da Dispensa de AVCB e CLCB" },
-  { icon: CheckCircle, text: "Elaboração de Laudos Estanqueidade" },
-  { icon: ClipboardMinus, text: "Assessoria Especializada" },
-  { icon: FireExtinguisher, text: "Elaboração e Alteração do Projeto de Incêndio" },
+  { icon: Toilet, text: "Alvará Sanitário" },
+  { icon: ClipboardCheck, text: "Elaboração do Projeto Arquitetônico" },
+  { icon: ClipboardList, text: "Elaboração do Projeto Arquitetônico" },
+  { icon: CheckCircle, text: "Elaboração de Manuais, POPs, RQs e PGRSS" },
+  { icon: ClipboardMinus, text: "Elaboração de Documentos Complementares" },
+  { icon: CircleUserRound, text: "Assessoria Especializada" },
 ];
 
 const buildWhatsAppUrl = (message: string) => {
@@ -32,11 +32,11 @@ const HeroSection = () => {
             Projeto de Incêndio
           </span> */}
           <h1 className="text-4xl font-extrabold leading-tight text-foreground md:text-5xl">
-            Soluções junto ao{" "}
-            <span className="text-destructive">Corpo de Bombeiros</span> para sua empresa e edificação
+            Soluções em{" "}
+            <span className="text-primary">Vigilância Sanitária</span> para sua empresa
           </h1>
           <p className="max-w-lg text-lg text-muted-foreground">
-          Oferecemos assessoria completa para regularização junto ao Corpo de Bombeiros, através da obtenção de AVCB/CLCB, elaboração de Projetos e confecção dos documentos complementares. Garanta a conformidade do seu negócio e edificação. 
+          Oferecemos assessoria completa para regularização junto a Vigilância Sanitária, através da obtenção de Alvarás, elaboração de Projetos e confecção dos documentos complementares. Garanta a conformidade do seu negócio. 
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             {features.map((f) => {
@@ -47,9 +47,9 @@ const HeroSection = () => {
                   href={buildWhatsAppUrl(waMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex cursor-pointer items-center gap-2 rounded-lg bg-destructive/10 px-4 py-2 text-sm font-medium text-destructive transition hover:bg-destructive/15 hover:underline"
+                  className="flex cursor-pointer items-center gap-2 rounded-lg bg-primary/10 px-4 py-2 text-sm font-medium text-primary transition hover:bg-primary/15 hover:underline"
                 >
-                  <f.icon className="h-4 w-4 shrink-0 text-destructive" />
+                  <f.icon className="h-4 w-4 shrink-0 text-primary" />
                   {f.text.trim()}
                 </a>
               );

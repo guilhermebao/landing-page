@@ -9,28 +9,32 @@ const WHATSAPP_NUMBER = "5537988339363";
 
 const faqs = [
   {
-    q: "Quem precisa do AVCB ou CLCB?",
-    a: "Toda edificação comercial ou multifamiliar acima de 200 m² precisa de regularização junto ao Corpo de Bombeiros para obtenção do AVCB ou CLCB; para uma verificação mais assertiva, entre em contato conosco que analisamos a necessidade conforme as características do seu imóvel e atividade.",
+    q: "Quem precisa tirar o Alvará Sanitário?",
+    a: "Qualquer empresa ou profissional que exerça atividade que possa impactar a saúde pública precisa do Alvará Sanitário, incluindo clínicas, consultórios, farmácias, serviços de estética, academias, restaurantes e comércios que realizam manipulação de alimentos; para uma verificação mais assertiva, entre em contato conosco que analisamos a necessidade conforme o CNAE vinculado ao CNPJ da sua empresa.",
   },
   {
-    q: "Quanto tempo leva para obter o AVCB ou CLCB?",
-    a: "O prazo pode variar conforme a complexidade da edificação e as adequações necessárias, mas geralmente o processo leva entre 20 e 45 dias.",
+    q: "Quanto tempo leva para obter a Alvará Sanitário?",
+    a: "O prazo pode variar de acordo com o município e a complexidade do negócio. Geralmente, o processo leva entre 20 à 60 dias após a entrada da documentação completa.",
   },
   {
-    q: "Quando é necessário elaborar ou alterar um Projeto de Incêndio?",
-    a: "A elaboração do Projeto de Incêndio é necessária em edificações acima de 200m², porém a aprovação é exigida apenas quando a edificação possui área superior a 930m²; já a alteração do projeto deve ser feita quando há mudanças no layout, ampliação da área ou alteração da atividade do imóvel, garantindo que todas as medidas de segurança estejam conforme as normas vigentes.",
+    q: "O que é o projeto básico arquitetônico e quando ele é necessário?",
+    a: "É o projeto que organiza os ambientes conforme as exigências sanitárias, garantindo fluxos adequados, separação de áreas, locais de moveis e equipamentos, tudo em conformidade com as normas e RDCs; ele é necessário para aprovação junto à Vigilância Sanitária em atividades de Nível III como clínicas odontológicas, consultórios e clinicas de estética com procedimentos invasivos, distribuidoras de medicamentos, entre outros, para uma verificação mais assertiva, entre em contato conosco que analisamos a necessidade conforme o CNAE vinculado ao CNPJ da sua empresa.",
   },
   {
-    q: "O que é o treinamento de Brigada de Incêndio e quem precisa?",
-    a: "É a capacitação dos responsáveis pelo atendimento inicial em situações de emergência, sendo exigida para diversas empresas e edificações, garantindo mais segurança aos ocupantes e atendimento às exigências do Corpo de Bombeiros.",
+    q: "O que são Manuais, POPs e RQs e por que são importantes?",
+    a: "São documentos que padronizam os processos do estabelecimento, garantindo organização, qualidade e segurança nas atividades do dia a dia, além de serem exigidos pela Vigilância Sanitária para comprovar que os procedimentos seguem normas e RDCs adequadas.",
   },
   {
-    q: "Quando é possível obter a dispensa de AVCB ou CLCB?",
-    a: "A dispensa pode ser aplicada a edificações de baixo risco que possuam área inferior a 200 m², desde que atendam aos critérios definidos pelo Corpo de Bombeiros; para uma análise correta, avaliamos as características do seu imóvel.",
+    q: "O que é o PGRSS e quem precisa dele?",
+    a: "O PGRSS é o Plano de Gerenciamento de Resíduos de Serviços de Saúde, obrigatório para estabelecimentos que geram resíduos com potencial risco à saúde ou ao meio ambiente, como clínicas, consultórios, laboratórios e serviços de estética.",
   },
   {
-    q: "O que acontece se meu estabelecimento não estiver regularizado junto ao Corpo de Bombeiros?",
-    a: "O imóvel pode sofrer penalidades como multas, interdição e impedimento de funcionamento, além de riscos à segurança das pessoas, sendo essencial manter a regularização em dia.",
+    q: "Quando preciso renovar o Alvará Sanitário?",
+    a: "O Alvará Sanitário possui validade e deve ser renovado periodicamente conforme as exigências do município, sendo importante manter a regularidade para evitar multas e problemas com a fiscalização.",
+  },
+  {
+    q: "O que acontece se meu estabelecimento não estiver em conformidade?",
+    a: "O descumprimento das normas sanitárias pode resultar em multas, interdição do estabelecimento e até mesmo processos judiciais. Nossa assessoria ajuda a evitar esses problemas.",
   },
 ];
 
