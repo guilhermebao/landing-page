@@ -41,9 +41,10 @@ import {
   
   export default function Example() {
     return (
-      <div className="container mx-auto py-16 md:py-24 bg-destructive/10">
+      <div className="bg-destructive/10">
+      <div className="container mx-auto py-16 md:py-24">
         <h2 className="mb-2 text-center text-3xl font-extrabold text-foreground md:text-4xl">
-        Por que a <span className="text-destructive">MVM Engenharia</span> é a <span className="text-destructive">Assessoria Perfeita</span> para se contratar? 
+        Por que a <span className="text-destructive">MVM Engenharia</span> é a <span className="text-destructive" >Assessoria Perfeita</span> para se contratar? 
         </h2>
         <p className="mb-10 text-center text-muted-foreground">
         Somos um escritório que reduz a burocracia e agiliza todo o processo, conduzindo cada etapa de forma prática e eficiente para que você tenha menos preocupação. Isso porque contamos com um corpo técnico especializado que busca soluções inteligentes e seguras conforme a sua necessidade. 
@@ -78,6 +79,7 @@ import {
             </div>
           ))}
         </dl>
+      </div>
       </div>
     )
   }

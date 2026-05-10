@@ -12,12 +12,16 @@ const features = [
   { icon: FireExtinguisher, text: "Elaboração e Alteração do Projeto de Incêndio" },
 ];
 
+const buildWhatsAppUrl = (message: string) => {
+  const encoded = encodeURIComponent(message);
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
+};
+
 const HeroSection = () => {
   const handleWhatsApp = () => {
-    const message = "MVM Engenharia gostaria de saber sobre o serviço de projeto de incêndio.";
-    const encoded = encodeURIComponent(message);
-    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
-    window.open(url, "_blank", "noopener,noreferrer");
+    const message =
+      "MVM Engenharia gostaria de saber sobre o serviço de projeto de incêndio.";
+    window.open(buildWhatsAppUrl(message), "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -35,15 +39,21 @@ const HeroSection = () => {
           Oferecemos assessoria completa para regularização junto ao Corpo de Bombeiros, através da obtenção de AVCB/CLCB, elaboração de Projetos e confecção dos documentos complementares. Garanta a conformidade do seu negócio e edificação. 
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
-            {features.map((f) => (
-              <div
-                key={f.text}
-                className="flex items-center gap-2 rounded-lg bg-destructive/10 px-4 py-2 text-sm font-medium text-destructive"
-              >
-                <f.icon className="h-4 w-4 text-destructive" />
-                {f.text}
-              </div>
-            ))}
+            {features.map((f) => {
+              const waMessage = `MVM Engenharia gostaria de saber sobre ${f.text.trim()}.`;
+              return (
+                <a
+                  key={f.text}
+                  href={buildWhatsAppUrl(waMessage)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex cursor-pointer items-center gap-2 rounded-lg bg-destructive/10 px-4 py-2 text-sm font-medium text-destructive transition hover:bg-destructive/15 hover:underline"
+                >
+                  <f.icon className="h-4 w-4 shrink-0 text-destructive" />
+                  {f.text.trim()}
+                </a>
+              );
+            })}
           </div>
           <button
             onClick={handleWhatsApp}
