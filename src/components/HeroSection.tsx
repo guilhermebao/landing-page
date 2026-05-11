@@ -1,12 +1,12 @@
-import heroImage from "@/assets/acessibilidade.jpeg";
+import heroImage from "@/assets/regularizacao-de-imoveis.jpeg";
 import { ClipboardCheck, CheckCircle, ClipboardList, FireExtinguisher, ClipboardMinus, Toilet, CircleUserRound } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5537988339363";
 
 const features = [
-  { icon: ClipboardMinus, text: "Elaboração do Laudo de Acessibilidade" },
-  { icon: ClipboardCheck, text: "Obtenção do Certificado de Acessibilidade" },
-  { icon: ClipboardList, text: "Elaboração de Projetos de Acessibilidade" },
+  { icon: ClipboardMinus, text: "Elaboração do Projeto Arquitetônico – ProUrb" },
+  { icon: ClipboardCheck, text: "Acompanhamento do processo na Lei de Anistia" },
+  { icon: ClipboardList, text: "Obtenção do Certificado de Conclusão de Obra (CCO) – Habite-se" },
   { icon: CheckCircle, text: "Obtenção do Aprazamento para Implementação da Acessibilidade" },
   { icon: CircleUserRound, text: "Assessoria Especializada" },
 ];
@@ -32,10 +32,10 @@ const HeroSection = () => {
           </span> */}
           <h1 className="text-4xl font-extrabold leading-tight text-foreground md:text-5xl">
             Soluções em{" "}
-            <span className="text-secondary">Acessibilidade</span> para sua empresa e edificação
+            <span className="text-orange-400">Regularização de Imóveis</span> através da Lei de Anistia
           </h1>
           <p className="max-w-lg text-lg text-muted-foreground">
-          Oferecemos assessoria completa para regularização para Elaboração de Laudos de Acessibilidade, Projetos e Assessoria Especializada. Garanta a conformidade do seu negócio e edificação. 
+          Oferecemos assessoria completa para regularização do seu imóvel junto ao ProUrb — Lei de Regularização Onerosa. Se sua edificação não possui projeto aprovado na Prefeitura ou está com a documentação desatualizada, realizamos a aprovação do novo projeto através da Lei de Anistia, permitindo a averbação do imóvel de forma prática, segura e com acompanhamento técnico especializado. 
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             {features.map((f) => {
@@ -46,9 +46,9 @@ const HeroSection = () => {
                   href={buildWhatsAppUrl(waMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex cursor-pointer items-center gap-2 rounded-lg bg-secondary/10 px-4 py-2 text-sm font-medium text-secondary transition hover:bg-secondary/15 hover:underline"
+                  className="flex cursor-pointer items-center gap-2 rounded-lg bg-orange-400/10 px-4 py-2 text-sm font-medium text-orange-400 transition hover:bg-orange-400/15 hover:underline"
                 >
-                  <f.icon className="h-4 w-4 shrink-0 text-secondary" />
+                  <f.icon className="h-4 w-4 shrink-0 text-orange-400" />
                   {f.text.trim()}
                 </a>
               );

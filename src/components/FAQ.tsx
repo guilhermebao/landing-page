@@ -9,28 +9,32 @@ const WHATSAPP_NUMBER = "5537988339363";
 
 const faqs = [
   {
-    q: "Quem precisa obter o Certificado de Acessibilidade?",
-    a: "Todo estabelecimento com CNPJ necessita do Certificado de Acessibilidade para obtenção do Alvará de Localização e Funcionamento, conforme as exigências do município e das normas de acessibilidade vigentes.",
+    q: "O que é a Lei de Anistia ou ProUrb?",
+    a: "A Lei de Regularização Onerosa, também conhecida como ProUrb ou Lei de Anistia, é um programa de regularização que permite legalizar imóveis construídos em desacordo com o projeto aprovado ou sem aprovação na Prefeitura, possibilitando que a edificação fique regular perante o município.",
   },
   {
-    q: "Quanto tempo leva para obter o Certificado de Acessibilidade?",
-    a: "O prazo pode variar conforme a complexidade da edificação e das adequações necessárias, mas geralmente o processo leva em média 30 dias.",
+    q: "Quais imóveis podem ser regularizados pelo ProUrb?",
+    a: "Podem ser regularizados imóveis residenciais, comerciais, multifamiliares e industriais que possuam irregularidades construtivas, ampliações não aprovadas ou ausência de projeto regularizado junto à Prefeitura.",
   },
   {
-    q: "Posso obter um prazo para executar as medidas de acessibilidade e mesmo assim estar regular?",
-    a: "Sim, é possível solicitar o aprazamento do Certificado de Acessibilidade, permitindo a regularização do imóvel enquanto as adequações são executadas; dependendo da complexidade da obra, os prazos podem variar entre um, três e até sete anos.",
+    q: "Quais as vantagens de regularizar meu imóvel?",
+    a: "A regularização permite averbar o imóvel, facilitar financiamentos, vendas e transferências, além de evitar multas, notificações e problemas junto à Prefeitura Municipal.",
   },
   {
-    q: "Qual a finalidade do Projeto de Acessibilidade?",
-    a: "O Projeto de Acessibilidade é um projeto complementar diretamente ligado ao projeto arquitetônico, com a finalidade de garantir que a edificação atenda às normas de acessibilidade, contemplando itens como sanitários acessíveis, rampas, corrimãos, largura de corredores, sinalização tátil e demais critérios previstos na NBR 9050.",
+    q: "Meu imóvel não possui projeto aprovado, ainda assim posso regularizar?",
+    a: "Sim, em muitos casos é possível realizar a regularização mesmo sem projeto aprovado anteriormente, desde que a edificação atenda aos critérios estabelecidos pela Lei de Anistia vigente.",
   },
   {
-    q: "O que acontece se o estabelecimento não atender às normas de acessibilidade?",
-    a: "O estabelecimento pode ter dificuldades para obter o Alvará de Localização e Funcionamento, além de estar sujeito a fiscalizações, notificações, autuações e outras penalidades pelos órgãos competentes.",
+    q: "Quanto tempo leva para regularizar um imóvel?",
+    a: "O prazo pode variar conforme a complexidade da edificação e a documentação disponível, mas geralmente o processo leva entre 60 e 120 dias.",
   },
   {
-    q: "Quando preciso renovar o Alvará Sanitário?",
-    a: "O Alvará Sanitário possui validade e deve ser renovado periodicamente conforme as exigências do município, sendo importante manter a regularidade para evitar multas e problemas com a fiscalização.",
+    q: "O imóvel regularizado pode ser averbado no cartório?",
+    a: "Sim, após a aprovação da regularização junto à Prefeitura, o imóvel poderá ser averbado no cartório, atualizando oficialmente a matrícula da edificação.",
+  },
+  {
+    q: "O que acontece se o imóvel permanecer irregular?",
+    a: "O imóvel pode sofrer multas, notificações e dificuldades para venda, f inanciamento, inventário e transferência, além de impedir a averbação correta da construção junto ao cartório; em imóveis de caráter comercial, a irregularidade também pode gerar dificuldades ou até impossibilitar a obtenção do Alvará de Localização e Funcionamento das empresas instaladas no local.",
   },
 ];
 
