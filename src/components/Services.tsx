@@ -41,10 +41,10 @@ import {
   
   export default function Example() {
     return (
-      <div className="bg-primary/10">
+      <div className="bg-secondary/10">
       <div className="container mx-auto py-16 md:py-24">
         <h2 className="mb-2 text-center text-3xl font-extrabold text-foreground md:text-4xl">
-        Por que a <span className="text-primary">MVM Engenharia</span> é a <span className="text-primary" >Assessoria Perfeita</span> para se contratar? 
+        Por que a <span className="text-secondary">MVM Engenharia</span> é a <span className="text-secondary" >Assessoria Perfeita</span> para se contratar? 
         </h2>
         <p className="mb-10 text-center text-muted-foreground">
         Somos um escritório que reduz a burocracia e agiliza todo o processo, conduzindo cada etapa de forma prática e eficiente para que você tenha menos preocupação. Isso porque contamos com um corpo técnico especializado que busca soluções inteligentes e seguras conforme a sua necessidade. 
@@ -59,7 +59,7 @@ import {
               <div className="flex flex-col items-center text-center">
                 
                 {/* Ícone */}
-                <div className="rounded-xl bg-primary p-4">
+                <div className="rounded-xl bg-secondary p-4">
                   <item.icon
                     aria-hidden="true"
                     className="h-6 w-6 text-white"
@@ -67,7 +67,7 @@ import {
                 </div>
   
                 {/* Título */}
-                <h3 className="mt-4 text-lg font-medium text-primary">
+                <h3 className="mt-4 text-lg font-medium text-secondary">
                   {item.name}
                 </h3>
   

@@ -1,14 +1,13 @@
-import heroImage from "@/assets/bombeiro.jpeg";
+import heroImage from "@/assets/acessibilidade.jpeg";
 import { ClipboardCheck, CheckCircle, ClipboardList, FireExtinguisher, ClipboardMinus, Toilet, CircleUserRound } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5537988339363";
 
 const features = [
-  { icon: Toilet, text: "Alvará Sanitário" },
-  { icon: ClipboardCheck, text: "Elaboração do Projeto Arquitetônico" },
-  { icon: ClipboardList, text: "Elaboração do Projeto Arquitetônico" },
-  { icon: CheckCircle, text: "Elaboração de Manuais, POPs, RQs e PGRSS" },
-  { icon: ClipboardMinus, text: "Elaboração de Documentos Complementares" },
+  { icon: ClipboardMinus, text: "Elaboração do Laudo de Acessibilidade" },
+  { icon: ClipboardCheck, text: "Obtenção do Certificado de Acessibilidade" },
+  { icon: ClipboardList, text: "Elaboração de Projetos de Acessibilidade" },
+  { icon: CheckCircle, text: "Obtenção do Aprazamento para Implementação da Acessibilidade" },
   { icon: CircleUserRound, text: "Assessoria Especializada" },
 ];
 
@@ -20,7 +19,7 @@ const buildWhatsAppUrl = (message: string) => {
 const HeroSection = () => {
   const handleWhatsApp = () => {
     const message =
-      "MVM Engenharia gostaria de saber sobre o serviço de projeto de incêndio.";
+      "MVM Engenharia gostaria de saber sobre o serviço de projeto de acessibilidade.";
     window.open(buildWhatsAppUrl(message), "_blank", "noopener,noreferrer");
   };
 
@@ -33,10 +32,10 @@ const HeroSection = () => {
           </span> */}
           <h1 className="text-4xl font-extrabold leading-tight text-foreground md:text-5xl">
             Soluções em{" "}
-            <span className="text-primary">Vigilância Sanitária</span> para sua empresa
+            <span className="text-secondary">Acessibilidade</span> para sua empresa e edificação
           </h1>
           <p className="max-w-lg text-lg text-muted-foreground">
-          Oferecemos assessoria completa para regularização junto a Vigilância Sanitária, através da obtenção de Alvarás, elaboração de Projetos e confecção dos documentos complementares. Garanta a conformidade do seu negócio. 
+          Oferecemos assessoria completa para regularização para Elaboração de Laudos de Acessibilidade, Projetos e Assessoria Especializada. Garanta a conformidade do seu negócio e edificação. 
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             {features.map((f) => {
@@ -47,9 +46,9 @@ const HeroSection = () => {
                   href={buildWhatsAppUrl(waMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex cursor-pointer items-center gap-2 rounded-lg bg-primary/10 px-4 py-2 text-sm font-medium text-primary transition hover:bg-primary/15 hover:underline"
+                  className="flex cursor-pointer items-center gap-2 rounded-lg bg-secondary/10 px-4 py-2 text-sm font-medium text-secondary transition hover:bg-secondary/15 hover:underline"
                 >
-                  <f.icon className="h-4 w-4 shrink-0 text-primary" />
+                  <f.icon className="h-4 w-4 shrink-0 text-secondary" />
                   {f.text.trim()}
                 </a>
               );

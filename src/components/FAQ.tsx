@@ -9,32 +9,28 @@ const WHATSAPP_NUMBER = "5537988339363";
 
 const faqs = [
   {
-    q: "Quem precisa tirar o Alvará Sanitário?",
-    a: "Qualquer empresa ou profissional que exerça atividade que possa impactar a saúde pública precisa do Alvará Sanitário, incluindo clínicas, consultórios, farmácias, serviços de estética, academias, restaurantes e comércios que realizam manipulação de alimentos; para uma verificação mais assertiva, entre em contato conosco que analisamos a necessidade conforme o CNAE vinculado ao CNPJ da sua empresa.",
+    q: "Quem precisa obter o Certificado de Acessibilidade?",
+    a: "Todo estabelecimento com CNPJ necessita do Certificado de Acessibilidade para obtenção do Alvará de Localização e Funcionamento, conforme as exigências do município e das normas de acessibilidade vigentes.",
   },
   {
-    q: "Quanto tempo leva para obter a Alvará Sanitário?",
-    a: "O prazo pode variar de acordo com o município e a complexidade do negócio. Geralmente, o processo leva entre 20 à 60 dias após a entrada da documentação completa.",
+    q: "Quanto tempo leva para obter o Certificado de Acessibilidade?",
+    a: "O prazo pode variar conforme a complexidade da edificação e das adequações necessárias, mas geralmente o processo leva em média 30 dias.",
   },
   {
-    q: "O que é o projeto básico arquitetônico e quando ele é necessário?",
-    a: "É o projeto que organiza os ambientes conforme as exigências sanitárias, garantindo fluxos adequados, separação de áreas, locais de moveis e equipamentos, tudo em conformidade com as normas e RDCs; ele é necessário para aprovação junto à Vigilância Sanitária em atividades de Nível III como clínicas odontológicas, consultórios e clinicas de estética com procedimentos invasivos, distribuidoras de medicamentos, entre outros, para uma verificação mais assertiva, entre em contato conosco que analisamos a necessidade conforme o CNAE vinculado ao CNPJ da sua empresa.",
+    q: "Posso obter um prazo para executar as medidas de acessibilidade e mesmo assim estar regular?",
+    a: "Sim, é possível solicitar o aprazamento do Certificado de Acessibilidade, permitindo a regularização do imóvel enquanto as adequações são executadas; dependendo da complexidade da obra, os prazos podem variar entre um, três e até sete anos.",
   },
   {
-    q: "O que são Manuais, POPs e RQs e por que são importantes?",
-    a: "São documentos que padronizam os processos do estabelecimento, garantindo organização, qualidade e segurança nas atividades do dia a dia, além de serem exigidos pela Vigilância Sanitária para comprovar que os procedimentos seguem normas e RDCs adequadas.",
+    q: "Qual a finalidade do Projeto de Acessibilidade?",
+    a: "O Projeto de Acessibilidade é um projeto complementar diretamente ligado ao projeto arquitetônico, com a finalidade de garantir que a edificação atenda às normas de acessibilidade, contemplando itens como sanitários acessíveis, rampas, corrimãos, largura de corredores, sinalização tátil e demais critérios previstos na NBR 9050.",
   },
   {
-    q: "O que é o PGRSS e quem precisa dele?",
-    a: "O PGRSS é o Plano de Gerenciamento de Resíduos de Serviços de Saúde, obrigatório para estabelecimentos que geram resíduos com potencial risco à saúde ou ao meio ambiente, como clínicas, consultórios, laboratórios e serviços de estética.",
+    q: "O que acontece se o estabelecimento não atender às normas de acessibilidade?",
+    a: "O estabelecimento pode ter dificuldades para obter o Alvará de Localização e Funcionamento, além de estar sujeito a fiscalizações, notificações, autuações e outras penalidades pelos órgãos competentes.",
   },
   {
     q: "Quando preciso renovar o Alvará Sanitário?",
     a: "O Alvará Sanitário possui validade e deve ser renovado periodicamente conforme as exigências do município, sendo importante manter a regularidade para evitar multas e problemas com a fiscalização.",
-  },
-  {
-    q: "O que acontece se meu estabelecimento não estiver em conformidade?",
-    a: "O descumprimento das normas sanitárias pode resultar em multas, interdição do estabelecimento e até mesmo processos judiciais. Nossa assessoria ajuda a evitar esses problemas.",
   },
 ];
 
